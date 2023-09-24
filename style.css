@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color:
+        #e9e6c3;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom, #e9e5c0, #f8f7db, #f9f7db);
+}
+
+.first-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rotated-text img {
+    max-height: 827px;
+}
+
+.vertical-box-container {
+    display: flex;
+}
+
+.vertical-first-box {
+    display: flex;
+}
+
+.vertical-first-box-left,
+.vertical-first-box-right {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin: -10px;
+}
+
+.vertical-first-box-up img {
+    width: 240px;
+    height: 372px;
+}
+
+.vertical-first-box-up {
+    margin-left: -1px;
+    border-style: none;
+}
+
+.vertical-first-box-left .vertical-first-box-down,
+.vertical-first-box-right .vertical-first-box-down {
+    max-width: 240px;
+    margin-top: -10px;
+    line-height: 19px;
+}
+
+.vertical-first-box-left .vertical-first-box-down {
+    background-color: #cd4008;
+    padding-bottom: 6.5rem;
+}
+
+.vertical-first-box-right .vertical-first-box-down {
+    background-color: #a0b31b;
+    padding-bottom: 3rem;
+}
+
+.vertical-first-box-left h2,
+.vertical-first-box-right h2 {
+    font-size: 26px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.vertical-first-box-left .vertical-box-heading-para,
+.vertical-first-box-right .vertical-box-heading-para {
+    color: #ffe996;
+    font-weight: bold;
+    width: 80%;
+    text-align: left;
+    margin: 1rem auto;
+    font-size: 12px;
+}
+
+.vertical-box-content-para {
+    color: #f8d85e;
+    width: 70%;
+    text-align: left;
+    margin: 1rem auto;
+    font-size: 12px;
+}
+
+.vertical-first-box-right h5 {
+    font-size: 12px;
+    color: white;
+    width: 70%;
+    margin: 0 auto -0.8rem;
+}
+
+.read-more-button {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 3rem;
+    position: relative;
+    left: 160px;
+    cursor: pointer;
+}
+
+.vertical-first-box-left .read-more-button:hover {
+    color: #cd4008;
+}
+
+.vertical-first-box-right .read-more-button:hover {
+    color: #a0b31b;
+}
+
+
+.vertical-first-box-left a,
+.vertical-first-box-right a {
+    color: #f8d85e;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.home-icon-over-image img {
+    width: 47px;
+    height: 56px;
+
+}
+
+.home-icon-over-image {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    margin-left: 195px;
+    margin-top: -2px;
+    cursor: pointer;
+}
+
+.home-icon-over-image p {
+    font-size: 12px;
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 47px;
+    background-color: #f6f5e3;
+    margin-top: -6px;
+    z-index: 1;
+}
+
+.home-icon-over-image:hover {
+    padding-top: 1rem;
+}
+
+.vertical-second-box {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.second-box-cv-container {
+    display: flex;
+}
+
+.cv-lists ul {
+    list-style: none;
+    margin-right: 1rem;
+
+}
+
+.cv-lists ul li {
+    width: 176px;
+    height: 28px;
+    border-bottom: #b1ae7e dotted 1px;
+    cursor: pointer;
+}
+
+.cv-lists ul li a {
+    margin-left: 15px;
+    font-size: 12px;
+
+    font-weight: bold;
+    text-decoration: none;
+    color: #636038;
+    line-height: 22px;
+    height: 24px;
+
+}
+
+.cv-image {
+    margin-left: 1rem;
+}
+
+.cv-lists ul .cv-bottom-list {
+    border-style: none;
+}
+
+.cv-lists ul li:hover a {
+    color: #75850e;
+}
+
+
+.second-box-message-list {
+    margin-top: 3rem;
+}
+
+.second-box-message-list h2 {
+    font-size: 34px;
+    color: red;
+    display: inline-flex;
+    font-weight: 400;
+}
+
+.second-box-message-list h2 span {
+    margin-right: 1rem;
+}
+
+.second-box-message-list ul {
+    list-style-type: none;
+
+}
+
+.second-box-message-list ul li {
+    margin: 10px 0;
+    background-color: #fefdeb;
+    padding: 2px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second-box-message-list ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 0.5rem;
+    color: #3b3a2b;
+
+}
+
+.second-box-message-list ul li:hover a {
+    color: #9fb31a;
+
+}
+
+.second-box-card-images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.general-card-items {
+    display: flex;
+}
+
+.general-card-items img {
+    margin-inline: 0.5rem;
+    width: 120px;
+}
+
+.message-card-items {
+    margin-top: 2rem;
+
+}
+
+.message-card-items img {
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.message-box-input {
+    position: relative;
+    top: -83px;
+    left: 120px
+}
+
+.message-form-para input {
+    padding: 3px 5px;
+    width: 200px;
+    margin-top: 0.5rem;
+}
+
+.message-box-button {
+    margin-left: 5px;
+    background-color:
+        #cd4008;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+/* second-container */
+
+.second-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+
+
+.second-container-feature-box p {
+    font-size: 12px;
+    color: #575433;
+    margin: 1rem;
+    max-width: 470px;
+    line-height: 18px;
+}
+
+.second-container-feature-box p span {
+    color: #8da00d;
+    font-weight: bold;
+}
+
+.second-container-button {
+    background-color: #cd4008;
+    color: white;
+}
+
+.feature-box-button {
+    position: relative;
+    top: -13px;
+    left: 405px;
+}
+
+.second-container-member-login-form {
+    background-color: #f1eed0;
+    border: 1px solid grey;
+    max-height: 184px;
+    padding: 0 1rem;
+    max-width: 205px;
+
+}
+
+.second-container-member-login-form div {
+    margin: 0 -1rem;
+}
+
+.second-container-member-login-form h2 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+    margin: 0 0 5px 0;
+    width: 100%;
+}
+
+
+
+.second-container-member-login-form label {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.second-container-member-login-form input {
+    width: 100%;
+    padding: 3px;
+}
+
+.forget-password-para {
+    margin-top: 0.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forget-password-para span {
+    font-weight: bold;
+    font-size: 12px;
+    color: #75850e;
+}
+
+.form-btn {
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}
+
+.second-container-phone-number-box {
+    margin-left: 1.5rem;
+}
+
+.second-container-phone-number-box>div {
+    position: relative;
+    top: -120px;
+    font-size: 26px;
+    width: 142px;
+    left: 28px;
+}
+
+.feature-heading {
+    display: inline-flex;
+    align-items: center;
+}
+
+.feature-heading span img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.member-login-heading {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.member-login-heading span img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    background-color: #313131;
+}
+
+footer p {
+    color: white;
+    margin: 5px 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-first-para a {
+    font-size: 11px;
+    color: whitesmoke;
+    margin-inline: 0.5rem;
+
+}
+
+.footer-second-para {
+    font-size: 10px;
+    color: #9fb31a;
+}
+
+.footer-third-para {
+    font-size: 12px;
+    font-weight: bold;
+    color: #e9e6c3;
+}
+
+.footer-third-para a {
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.footer-forth-para button {
+    margin-inline: 10px;
+    background-color: #cd4008;
+    color: white;
+    padding: 6px;
+    border-style: none;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+}
